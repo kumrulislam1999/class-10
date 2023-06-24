@@ -233,7 +233,7 @@ a {
 /* Start My Work Section CSS style Coding */
 
 
-/* Start Form Section */
+/* Start Contact Section */
 #contactSection {
     text-align: center;
 }
@@ -289,6 +289,22 @@ a {
     font-weight: 800;
 }
 
-/* Start Form Section */
+/* Start Contact Section */
 
 /* End Main Section CSS Style Coding */
+
+/* Start Footer Section CSS Style Coding */
+#footerSection {
+    background-color: #000000;
+    padding: 35px 0;
+
+}
+
+#footerSection p {
+    text-align: center;
+    color: #7e8287;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Start Footer Section CSS Style Coding */
