@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: open-sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -93,6 +93,7 @@ a {
 }
 
 #bannarSection a {
+    font-size: 14px;
     color: #ffffff;
     display: inline-block;
     background-color: #cfc91d;
@@ -233,13 +234,59 @@ a {
 
 
 /* Start Form Section */
-#formSection {
+#contactSection {
     text-align: center;
-    padding: 70px 0;
 }
 
-#formSection form>input {
+#contactSection .detailsHeading {
+    padding: 100px 0;
+}
+
+#contactSection .contactFormSection {
+    background-color: #0a0a0b;
+}
+
+#contactSection .item .contactForm {
+    padding: 71px 0;
+
+}
+
+#contactSection .contactForm>input,
+#contactSection .contactForm>textarea {
+    text-align: center;
+    color: #7e8287;
     display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 18px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #898989;
+}
+
+#contactSection .contactFormSection .Sm {
+    width: 637px;
+}
+
+#contactSection .contactFormSection .Lg {
+    width: 917px;
+}
+
+#contactSection .contactFormSection textarea {
+    resize: none;
+}
+
+#contactSection .contactFormSection button {
+    color: #0b1016;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    background-color: #cfc91d;
+    padding: 19px 46px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
 }
 
 /* Start Form Section */
