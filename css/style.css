@@ -1,0 +1,247 @@
+/* Start  Common CSS style coding */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: open-sans;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* End  Common CSS style coding */
+
+
+/* Start Header CSS Style Coding */
+#headerSection {
+    background-color: #02918c;
+    color: #ffffff;
+}
+
+#headerSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerSection a {
+    display: inline-block;
+    color: #ffffff;
+    line-height: 90px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 26px 25.5px;
+}
+
+/* Start Header CSS Style Coding */
+
+
+/* Start Main Section CSS Style Coding */
+
+
+/* Start Bannar Section Css Style Coding */
+#bannarSection {
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url(./../image/bannar_section_1_bg.png) center/cover no-repeat;
+    padding: 210px 125px;
+}
+
+#bannarSection .row {
+    justify-content: center;
+    align-items: center;
+}
+
+#bannarSection .item>p:first-child {
+    font-size: 30px;
+}
+
+#bannarSection .item>p:last-child {
+    font-size: 18px;
+}
+
+#bannarSection .item h1 {
+    letter-spacing: 26px;
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 75px;
+}
+
+#bannarSection img {
+    display: block;
+    margin: 52px auto;
+}
+
+#bannarSection a {
+    color: #ffffff;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 19px 46px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+#bannarSection a:hover {
+    background-color: #e6de0f;
+}
+
+/* End Bannar Section Css Style Coding */
+
+/* Start All Section Common CSS Coding */
+.detailsHeading h2 {
+    font-size: 46px;
+    color: #02918c;
+}
+
+.detailsHeading p {
+    font-size: 16px;
+    line-height: 41px;
+}
+
+.detailsHeading p>b {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.detailsInfo img {
+    margin: 28px 0;
+}
+
+.detailsInfo h3 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.detailsInfo p {
+    font-size: 11px;
+    line-height: 21px;
+    padding: 29px 0;
+}
+
+/* End All Section Common CSS Coding */
+
+/* Start About Section CSS style Coding */
+#aboutSection {
+    padding: 99px 0;
+    color: #7e8287;
+
+}
+
+#aboutSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutSection .item {
+    width: 25%;
+    padding: 37px 55px;
+    border-right: 1px solid #d9dbdb;
+}
+
+#aboutSection .item:last-child {
+    border: transparent;
+}
+
+#aboutSection .detailsHeading {
+    text-align: center;
+    padding: 0 140px;
+}
+
+#aboutSection .detailsInfo {
+    text-align: center;
+    padding: 56px 0;
+}
+
+/* End About Section CSS style Coding */
+
+
+/* Start Services Section CSS style Coding */
+#serviceSection {
+    padding: 74px 0;
+    color: #7e8287;
+    background: linear-gradient(rgba(240, 240, 232, 0.65), rgba(240, 240, 232, 0.65), rgba(240, 240, 232, 0.65)), url(./../image/services_section_bg_image.png) right/50% no-repeat;
+}
+
+#serviceSection .inner_container {
+    width: 50%;
+    padding-right: 55px 126px;
+}
+
+#serviceSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#serviceSection .detailsHeading {
+    text-align: left;
+}
+
+#serviceSection .item {
+    width: 50%;
+
+}
+
+/* End Services Section CSS style Coding */
+
+/* Start My Work Section CSS style Coding */
+#myWork {
+    padding-top: 111px;
+}
+
+#myWork .detailsHeading {
+    text-align: center;
+    color: #7e8287;
+    padding-bottom: 83px;
+}
+
+#myWork .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myWork .item {
+    width: 25%;
+    padding: 0;
+}
+
+#myWork img {
+    margin: 0;
+}
+
+/* Start My Work Section CSS style Coding */
+
+
+/* Start Form Section */
+#formSection {
+    text-align: center;
+    padding: 70px 0;
+}
+
+#formSection form>input {
+    display: block;
+}
+
+/* Start Form Section */
+
+/* End Main Section CSS Style Coding */
